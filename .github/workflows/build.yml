@@ -15,7 +15,7 @@ jobs:
 
       - name: Zip Files
         run: |
-          gzip nlp-models/*
+          gzip huggingface/*
 
       - name: Upload Artifact
         uses: actions/upload-artifact@master
